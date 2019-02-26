@@ -47,9 +47,22 @@
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 		<!-- Fim Add aula 13 -->
+		<!-- Dependencia conector mySQL -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		
+		<!-- Dependencia MockEmailService-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		
+		<!-- Dependencia Thymeleaf-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		
 	</dependencies>
