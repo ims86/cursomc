@@ -47,6 +47,7 @@
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 		<!-- Fim Add aula 13 -->
+		
 		<!-- Dependencia conector mySQL -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -64,6 +65,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		
+		<!-- Dependencias Spring Security-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.7.0</version>
+		</dependency>
+		<!-- Fim dependencias Spring Security-->
 		
 	</dependencies>
 
